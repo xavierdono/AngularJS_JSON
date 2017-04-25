@@ -18,7 +18,7 @@
     <div ng-if="!vm.error" class="alert alert-success">
         <span>Good!</span>
     </div>
-    <table class="table table-hover">
+    <table class="table table-hover" ng-show="vm.users.length > 0">
         <caption>Users</caption>
         <thead>
             <tr>
@@ -46,7 +46,7 @@
         </tbody>
     </table>
     <br />
-    <table class="table table-hover" ng-if="vm.posts">
+    <table class="table table-hover" ng-show="vm.posts.length > 0">
         <caption>Posts</caption>
         <thead>
             <tr>
