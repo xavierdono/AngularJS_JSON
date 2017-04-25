@@ -1,0 +1,13 @@
+{
+  "name": "JSON",
+  "version": "1.0.0",
+  "main": "app.js",
+  "repository": "https://github.com/xavierdono/Angular_JSON.git",
+  "author": "Xavier DONO <xavier.dono@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "angular": "^1.6.4",
+    "bootstrap": "^3.3.7",
+    "qunitjs": "^2.3.2"
+  }
+}

@@ -1,8 +1,8 @@
 (function () {
     'use strict';
 
-    angular.module('funwithjson', ['funwithjson.users'])
-
+    angular
+        .module('funwithjson', ['funwithjson.users'])
         .controller('MainCtrl', MainCtrl);
 
     MainCtrl.inject = ['Users'];
