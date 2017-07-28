@@ -1,4 +1,4 @@
-﻿# Angular_JSON
+﻿# AngularJS_JSON
 
 Exemple d'appel JSON
 
